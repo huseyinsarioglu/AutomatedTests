@@ -27,5 +27,7 @@ It contains the base objects of API test projects and their helper methods.
 
 Includes StepDefinitionBase class to increase reusability. Also, this class partially contains common GWT methods. For example, both test projects have no Given and Then methods internally. There are only WHEN methods specific to their domains.
 
+No setup or deployment is required. Just .NET Core 6 and Visual Studio is enough. After compiling the Solution, they should appear in the Test Explorer.
+
 I really paid attention to. I hope you will like it.
 
