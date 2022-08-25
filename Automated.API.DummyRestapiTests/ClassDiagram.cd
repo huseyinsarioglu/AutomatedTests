@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Automated.API.DummyRestapiTests.Controllers.EmployeesController">
+    <Position X="4.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAIIAAAIA=</HashCode>
+      <FileName>Controllers\EmployeesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Automated.API.Common.Base.ControllerBase">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+    <ShowAsAssociation>
+      <Field Name="_serviceClient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Automated.API.DummyRestapiTests.StepDefinitions.EmployeesControllerStepDefinitions">
+    <Position X="8.5" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAABAAAQAAAAQAAAAAAAA=</HashCode>
+      <FileName>StepDefinitions\EmployeesControllerStepDefinitions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_employeesController" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="HttpClientHelper.Library.ServiceClient">
+    <Position X="8.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Automated.API.Common.Base.UrlListBase" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Automated.API.DummyRestapiTests.Configurations.UrlList" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Configurations\UrlList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
